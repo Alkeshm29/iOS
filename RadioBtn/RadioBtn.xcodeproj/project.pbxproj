@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F424CC141E7186B800536F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F424CC131E7186B800536F94 /* main.m */; };
+		F424CC171E7186B800536F94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F424CC161E7186B800536F94 /* AppDelegate.m */; };
+		F424CC1A1E7186B800536F94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F424CC191E7186B800536F94 /* ViewController.m */; };
+		F424CC1D1E7186B800536F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424CC1B1E7186B800536F94 /* Main.storyboard */; };
+		F424CC1F1E7186B800536F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F424CC1E1E7186B800536F94 /* Assets.xcassets */; };
+		F424CC221E7186B800536F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F424CC201E7186B800536F94 /* LaunchScreen.storyboard */; };
+		F424CC2D1E7186B900536F94 /* RadioBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F424CC2C1E7186B900536F94 /* RadioBtnTests.m */; };
+		F424CC381E7186B900536F94 /* RadioBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F424CC371E7186B900536F94 /* RadioBtnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F424CC291E7186B800536F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F424CC071E7186B800536F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F424CC0E1E7186B800536F94;
+			remoteInfo = RadioBtn;
+		};
+		F424CC341E7186B900536F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F424CC071E7186B800536F94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F424CC0E1E7186B800536F94;
+			remoteInfo = RadioBtn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F424CC0F1E7186B800536F94 /* RadioBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424CC131E7186B800536F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F424CC151E7186B800536F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F424CC161E7186B800536F94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F424CC181E7186B800536F94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F424CC191E7186B800536F94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F424CC1C1E7186B800536F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F424CC1E1E7186B800536F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F424CC211E7186B800536F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F424CC231E7186B800536F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424CC281E7186B800536F94 /* RadioBtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioBtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424CC2C1E7186B900536F94 /* RadioBtnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioBtnTests.m; sourceTree = "<group>"; };
+		F424CC2E1E7186B900536F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F424CC331E7186B900536F94 /* RadioBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F424CC371E7186B900536F94 /* RadioBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioBtnUITests.m; sourceTree = "<group>"; };
+		F424CC391E7186B900536F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F424CC0C1E7186B800536F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC251E7186B800536F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC301E7186B900536F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F424CC061E7186B800536F94 = {
+			isa = PBXGroup;
+			children = (
+				F424CC111E7186B800536F94 /* RadioBtn */,
+				F424CC2B1E7186B900536F94 /* RadioBtnTests */,
+				F424CC361E7186B900536F94 /* RadioBtnUITests */,
+				F424CC101E7186B800536F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F424CC101E7186B800536F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F424CC0F1E7186B800536F94 /* RadioBtn.app */,
+				F424CC281E7186B800536F94 /* RadioBtnTests.xctest */,
+				F424CC331E7186B900536F94 /* RadioBtnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F424CC111E7186B800536F94 /* RadioBtn */ = {
+			isa = PBXGroup;
+			children = (
+				F424CC151E7186B800536F94 /* AppDelegate.h */,
+				F424CC161E7186B800536F94 /* AppDelegate.m */,
+				F424CC181E7186B800536F94 /* ViewController.h */,
+				F424CC191E7186B800536F94 /* ViewController.m */,
+				F424CC1B1E7186B800536F94 /* Main.storyboard */,
+				F424CC1E1E7186B800536F94 /* Assets.xcassets */,
+				F424CC201E7186B800536F94 /* LaunchScreen.storyboard */,
+				F424CC231E7186B800536F94 /* Info.plist */,
+				F424CC121E7186B800536F94 /* Supporting Files */,
+			);
+			path = RadioBtn;
+			sourceTree = "<group>";
+		};
+		F424CC121E7186B800536F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F424CC131E7186B800536F94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F424CC2B1E7186B900536F94 /* RadioBtnTests */ = {
+			isa = PBXGroup;
+			children = (
+				F424CC2C1E7186B900536F94 /* RadioBtnTests.m */,
+				F424CC2E1E7186B900536F94 /* Info.plist */,
+			);
+			path = RadioBtnTests;
+			sourceTree = "<group>";
+		};
+		F424CC361E7186B900536F94 /* RadioBtnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F424CC371E7186B900536F94 /* RadioBtnUITests.m */,
+				F424CC391E7186B900536F94 /* Info.plist */,
+			);
+			path = RadioBtnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F424CC0E1E7186B800536F94 /* RadioBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424CC3C1E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtn" */;
+			buildPhases = (
+				F424CC0B1E7186B800536F94 /* Sources */,
+				F424CC0C1E7186B800536F94 /* Frameworks */,
+				F424CC0D1E7186B800536F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioBtn;
+			productName = RadioBtn;
+			productReference = F424CC0F1E7186B800536F94 /* RadioBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F424CC271E7186B800536F94 /* RadioBtnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424CC3F1E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtnTests" */;
+			buildPhases = (
+				F424CC241E7186B800536F94 /* Sources */,
+				F424CC251E7186B800536F94 /* Frameworks */,
+				F424CC261E7186B800536F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F424CC2A1E7186B800536F94 /* PBXTargetDependency */,
+			);
+			name = RadioBtnTests;
+			productName = RadioBtnTests;
+			productReference = F424CC281E7186B800536F94 /* RadioBtnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F424CC321E7186B900536F94 /* RadioBtnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F424CC421E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtnUITests" */;
+			buildPhases = (
+				F424CC2F1E7186B900536F94 /* Sources */,
+				F424CC301E7186B900536F94 /* Frameworks */,
+				F424CC311E7186B900536F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F424CC351E7186B900536F94 /* PBXTargetDependency */,
+			);
+			name = RadioBtnUITests;
+			productName = RadioBtnUITests;
+			productReference = F424CC331E7186B900536F94 /* RadioBtnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F424CC071E7186B800536F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alk;
+				TargetAttributes = {
+					F424CC0E1E7186B800536F94 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					F424CC271E7186B800536F94 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F424CC0E1E7186B800536F94;
+					};
+					F424CC321E7186B900536F94 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F424CC0E1E7186B800536F94;
+					};
+				};
+			};
+			buildConfigurationList = F424CC0A1E7186B800536F94 /* Build configuration list for PBXProject "RadioBtn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F424CC061E7186B800536F94;
+			productRefGroup = F424CC101E7186B800536F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F424CC0E1E7186B800536F94 /* RadioBtn */,
+				F424CC271E7186B800536F94 /* RadioBtnTests */,
+				F424CC321E7186B900536F94 /* RadioBtnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F424CC0D1E7186B800536F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424CC221E7186B800536F94 /* LaunchScreen.storyboard in Resources */,
+				F424CC1F1E7186B800536F94 /* Assets.xcassets in Resources */,
+				F424CC1D1E7186B800536F94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC261E7186B800536F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC311E7186B900536F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F424CC0B1E7186B800536F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424CC1A1E7186B800536F94 /* ViewController.m in Sources */,
+				F424CC171E7186B800536F94 /* AppDelegate.m in Sources */,
+				F424CC141E7186B800536F94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC241E7186B800536F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424CC2D1E7186B900536F94 /* RadioBtnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F424CC2F1E7186B900536F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F424CC381E7186B900536F94 /* RadioBtnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F424CC2A1E7186B800536F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F424CC0E1E7186B800536F94 /* RadioBtn */;
+			targetProxy = F424CC291E7186B800536F94 /* PBXContainerItemProxy */;
+		};
+		F424CC351E7186B900536F94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F424CC0E1E7186B800536F94 /* RadioBtn */;
+			targetProxy = F424CC341E7186B900536F94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F424CC1B1E7186B800536F94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F424CC1C1E7186B800536F94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F424CC201E7186B800536F94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F424CC211E7186B800536F94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F424CC3A1E7186B900536F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F424CC3B1E7186B900536F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F424CC3D1E7186B900536F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadioBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F424CC3E1E7186B900536F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadioBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F424CC401E7186B900536F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadioBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioBtn.app/RadioBtn";
+			};
+			name = Debug;
+		};
+		F424CC411E7186B900536F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadioBtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioBtn.app/RadioBtn";
+			};
+			name = Release;
+		};
+		F424CC431E7186B900536F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadioBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadioBtn;
+			};
+			name = Debug;
+		};
+		F424CC441E7186B900536F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadioBtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alk.RadioBtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadioBtn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F424CC0A1E7186B800536F94 /* Build configuration list for PBXProject "RadioBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424CC3A1E7186B900536F94 /* Debug */,
+				F424CC3B1E7186B900536F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F424CC3C1E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424CC3D1E7186B900536F94 /* Debug */,
+				F424CC3E1E7186B900536F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F424CC3F1E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424CC401E7186B900536F94 /* Debug */,
+				F424CC411E7186B900536F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F424CC421E7186B900536F94 /* Build configuration list for PBXNativeTarget "RadioBtnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F424CC431E7186B900536F94 /* Debug */,
+				F424CC441E7186B900536F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F424CC071E7186B800536F94 /* Project object */;
+}
