@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C9A3231E685C93009205A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C9A3221E685C93009205A1 /* main.m */; };
+		F4C9A3261E685C93009205A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C9A3251E685C93009205A1 /* AppDelegate.m */; };
+		F4C9A3291E685C93009205A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C9A3281E685C93009205A1 /* ViewController.m */; };
+		F4C9A32C1E685C93009205A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C9A32A1E685C93009205A1 /* Main.storyboard */; };
+		F4C9A32E1E685C93009205A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C9A32D1E685C93009205A1 /* Assets.xcassets */; };
+		F4C9A3311E685C93009205A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C9A32F1E685C93009205A1 /* LaunchScreen.storyboard */; };
+		F4C9A33C1E685C93009205A1 /* LeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C9A33B1E685C93009205A1 /* LeapTests.m */; };
+		F4C9A3471E685C93009205A1 /* LeapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C9A3461E685C93009205A1 /* LeapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C9A3381E685C93009205A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C9A3161E685C93009205A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C9A31D1E685C93009205A1;
+			remoteInfo = Leap;
+		};
+		F4C9A3431E685C93009205A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C9A3161E685C93009205A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C9A31D1E685C93009205A1;
+			remoteInfo = Leap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4C9A31E1E685C93009205A1 /* Leap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C9A3221E685C93009205A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4C9A3241E685C93009205A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4C9A3251E685C93009205A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4C9A3271E685C93009205A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4C9A3281E685C93009205A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4C9A32B1E685C93009205A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C9A32D1E685C93009205A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C9A3301E685C93009205A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C9A3321E685C93009205A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C9A3371E685C93009205A1 /* LeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C9A33B1E685C93009205A1 /* LeapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapTests.m; sourceTree = "<group>"; };
+		F4C9A33D1E685C93009205A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C9A3421E685C93009205A1 /* LeapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C9A3461E685C93009205A1 /* LeapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapUITests.m; sourceTree = "<group>"; };
+		F4C9A3481E685C93009205A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C9A31B1E685C93009205A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A3341E685C93009205A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A33F1E685C93009205A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C9A3151E685C93009205A1 = {
+			isa = PBXGroup;
+			children = (
+				F4C9A3201E685C93009205A1 /* Leap */,
+				F4C9A33A1E685C93009205A1 /* LeapTests */,
+				F4C9A3451E685C93009205A1 /* LeapUITests */,
+				F4C9A31F1E685C93009205A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C9A31F1E685C93009205A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9A31E1E685C93009205A1 /* Leap.app */,
+				F4C9A3371E685C93009205A1 /* LeapTests.xctest */,
+				F4C9A3421E685C93009205A1 /* LeapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C9A3201E685C93009205A1 /* Leap */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9A3241E685C93009205A1 /* AppDelegate.h */,
+				F4C9A3251E685C93009205A1 /* AppDelegate.m */,
+				F4C9A3271E685C93009205A1 /* ViewController.h */,
+				F4C9A3281E685C93009205A1 /* ViewController.m */,
+				F4C9A32A1E685C93009205A1 /* Main.storyboard */,
+				F4C9A32D1E685C93009205A1 /* Assets.xcassets */,
+				F4C9A32F1E685C93009205A1 /* LaunchScreen.storyboard */,
+				F4C9A3321E685C93009205A1 /* Info.plist */,
+				F4C9A3211E685C93009205A1 /* Supporting Files */,
+			);
+			path = Leap;
+			sourceTree = "<group>";
+		};
+		F4C9A3211E685C93009205A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9A3221E685C93009205A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C9A33A1E685C93009205A1 /* LeapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9A33B1E685C93009205A1 /* LeapTests.m */,
+				F4C9A33D1E685C93009205A1 /* Info.plist */,
+			);
+			path = LeapTests;
+			sourceTree = "<group>";
+		};
+		F4C9A3451E685C93009205A1 /* LeapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9A3461E685C93009205A1 /* LeapUITests.m */,
+				F4C9A3481E685C93009205A1 /* Info.plist */,
+			);
+			path = LeapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C9A31D1E685C93009205A1 /* Leap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C9A34B1E685C93009205A1 /* Build configuration list for PBXNativeTarget "Leap" */;
+			buildPhases = (
+				F4C9A31A1E685C93009205A1 /* Sources */,
+				F4C9A31B1E685C93009205A1 /* Frameworks */,
+				F4C9A31C1E685C93009205A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leap;
+			productName = Leap;
+			productReference = F4C9A31E1E685C93009205A1 /* Leap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C9A3361E685C93009205A1 /* LeapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C9A34E1E685C93009205A1 /* Build configuration list for PBXNativeTarget "LeapTests" */;
+			buildPhases = (
+				F4C9A3331E685C93009205A1 /* Sources */,
+				F4C9A3341E685C93009205A1 /* Frameworks */,
+				F4C9A3351E685C93009205A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C9A3391E685C93009205A1 /* PBXTargetDependency */,
+			);
+			name = LeapTests;
+			productName = LeapTests;
+			productReference = F4C9A3371E685C93009205A1 /* LeapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4C9A3411E685C93009205A1 /* LeapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C9A3511E685C93009205A1 /* Build configuration list for PBXNativeTarget "LeapUITests" */;
+			buildPhases = (
+				F4C9A33E1E685C93009205A1 /* Sources */,
+				F4C9A33F1E685C93009205A1 /* Frameworks */,
+				F4C9A3401E685C93009205A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C9A3441E685C93009205A1 /* PBXTargetDependency */,
+			);
+			name = LeapUITests;
+			productName = LeapUITests;
+			productReference = F4C9A3421E685C93009205A1 /* LeapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C9A3161E685C93009205A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gaurav;
+				TargetAttributes = {
+					F4C9A31D1E685C93009205A1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					F4C9A3361E685C93009205A1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4C9A31D1E685C93009205A1;
+					};
+					F4C9A3411E685C93009205A1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4C9A31D1E685C93009205A1;
+					};
+				};
+			};
+			buildConfigurationList = F4C9A3191E685C93009205A1 /* Build configuration list for PBXProject "Leap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C9A3151E685C93009205A1;
+			productRefGroup = F4C9A31F1E685C93009205A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C9A31D1E685C93009205A1 /* Leap */,
+				F4C9A3361E685C93009205A1 /* LeapTests */,
+				F4C9A3411E685C93009205A1 /* LeapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C9A31C1E685C93009205A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C9A3311E685C93009205A1 /* LaunchScreen.storyboard in Resources */,
+				F4C9A32E1E685C93009205A1 /* Assets.xcassets in Resources */,
+				F4C9A32C1E685C93009205A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A3351E685C93009205A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A3401E685C93009205A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C9A31A1E685C93009205A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C9A3291E685C93009205A1 /* ViewController.m in Sources */,
+				F4C9A3261E685C93009205A1 /* AppDelegate.m in Sources */,
+				F4C9A3231E685C93009205A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A3331E685C93009205A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C9A33C1E685C93009205A1 /* LeapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C9A33E1E685C93009205A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C9A3471E685C93009205A1 /* LeapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C9A3391E685C93009205A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C9A31D1E685C93009205A1 /* Leap */;
+			targetProxy = F4C9A3381E685C93009205A1 /* PBXContainerItemProxy */;
+		};
+		F4C9A3441E685C93009205A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C9A31D1E685C93009205A1 /* Leap */;
+			targetProxy = F4C9A3431E685C93009205A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C9A32A1E685C93009205A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C9A32B1E685C93009205A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C9A32F1E685C93009205A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C9A3301E685C93009205A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C9A3491E685C93009205A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C9A34A1E685C93009205A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C9A34C1E685C93009205A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Leap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Leap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4C9A34D1E685C93009205A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Leap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Leap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4C9A34F1E685C93009205A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.LeapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap.app/Leap";
+			};
+			name = Debug;
+		};
+		F4C9A3501E685C93009205A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.LeapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap.app/Leap";
+			};
+			name = Release;
+		};
+		F4C9A3521E685C93009205A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.LeapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Leap;
+			};
+			name = Debug;
+		};
+		F4C9A3531E685C93009205A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.LeapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Leap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C9A3191E685C93009205A1 /* Build configuration list for PBXProject "Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9A3491E685C93009205A1 /* Debug */,
+				F4C9A34A1E685C93009205A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C9A34B1E685C93009205A1 /* Build configuration list for PBXNativeTarget "Leap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9A34C1E685C93009205A1 /* Debug */,
+				F4C9A34D1E685C93009205A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C9A34E1E685C93009205A1 /* Build configuration list for PBXNativeTarget "LeapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9A34F1E685C93009205A1 /* Debug */,
+				F4C9A3501E685C93009205A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4C9A3511E685C93009205A1 /* Build configuration list for PBXNativeTarget "LeapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C9A3521E685C93009205A1 /* Debug */,
+				F4C9A3531E685C93009205A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C9A3161E685C93009205A1 /* Project object */;
+}
