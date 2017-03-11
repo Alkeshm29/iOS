@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43CCA111E69395000C21BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CCA101E69395000C21BDC /* main.m */; };
+		F43CCA141E69395000C21BDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CCA131E69395000C21BDC /* AppDelegate.m */; };
+		F43CCA171E69395000C21BDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CCA161E69395000C21BDC /* ViewController.m */; };
+		F43CCA1A1E69395000C21BDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CCA181E69395000C21BDC /* Main.storyboard */; };
+		F43CCA1C1E69395000C21BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43CCA1B1E69395000C21BDC /* Assets.xcassets */; };
+		F43CCA1F1E69395000C21BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CCA1D1E69395000C21BDC /* LaunchScreen.storyboard */; };
+		F43CCA2A1E69395100C21BDC /* GamlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CCA291E69395100C21BDC /* GamlerTests.m */; };
+		F43CCA351E69395100C21BDC /* GamlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F43CCA341E69395100C21BDC /* GamlerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43CCA261E69395100C21BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43CCA041E69395000C21BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43CCA0B1E69395000C21BDC;
+			remoteInfo = Gamler;
+		};
+		F43CCA311E69395100C21BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43CCA041E69395000C21BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43CCA0B1E69395000C21BDC;
+			remoteInfo = Gamler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43CCA0C1E69395000C21BDC /* Gamler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43CCA101E69395000C21BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F43CCA121E69395000C21BDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F43CCA131E69395000C21BDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F43CCA151E69395000C21BDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F43CCA161E69395000C21BDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F43CCA191E69395000C21BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F43CCA1B1E69395000C21BDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43CCA1E1E69395000C21BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F43CCA201E69395000C21BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43CCA251E69395100C21BDC /* GamlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43CCA291E69395100C21BDC /* GamlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamlerTests.m; sourceTree = "<group>"; };
+		F43CCA2B1E69395100C21BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43CCA301E69395100C21BDC /* GamlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43CCA341E69395100C21BDC /* GamlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamlerUITests.m; sourceTree = "<group>"; };
+		F43CCA361E69395100C21BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43CCA091E69395000C21BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA221E69395100C21BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA2D1E69395100C21BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43CCA031E69395000C21BDC = {
+			isa = PBXGroup;
+			children = (
+				F43CCA0E1E69395000C21BDC /* Gamler */,
+				F43CCA281E69395100C21BDC /* GamlerTests */,
+				F43CCA331E69395100C21BDC /* GamlerUITests */,
+				F43CCA0D1E69395000C21BDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43CCA0D1E69395000C21BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43CCA0C1E69395000C21BDC /* Gamler.app */,
+				F43CCA251E69395100C21BDC /* GamlerTests.xctest */,
+				F43CCA301E69395100C21BDC /* GamlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43CCA0E1E69395000C21BDC /* Gamler */ = {
+			isa = PBXGroup;
+			children = (
+				F43CCA121E69395000C21BDC /* AppDelegate.h */,
+				F43CCA131E69395000C21BDC /* AppDelegate.m */,
+				F43CCA151E69395000C21BDC /* ViewController.h */,
+				F43CCA161E69395000C21BDC /* ViewController.m */,
+				F43CCA181E69395000C21BDC /* Main.storyboard */,
+				F43CCA1B1E69395000C21BDC /* Assets.xcassets */,
+				F43CCA1D1E69395000C21BDC /* LaunchScreen.storyboard */,
+				F43CCA201E69395000C21BDC /* Info.plist */,
+				F43CCA0F1E69395000C21BDC /* Supporting Files */,
+			);
+			path = Gamler;
+			sourceTree = "<group>";
+		};
+		F43CCA0F1E69395000C21BDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43CCA101E69395000C21BDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43CCA281E69395100C21BDC /* GamlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43CCA291E69395100C21BDC /* GamlerTests.m */,
+				F43CCA2B1E69395100C21BDC /* Info.plist */,
+			);
+			path = GamlerTests;
+			sourceTree = "<group>";
+		};
+		F43CCA331E69395100C21BDC /* GamlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F43CCA341E69395100C21BDC /* GamlerUITests.m */,
+				F43CCA361E69395100C21BDC /* Info.plist */,
+			);
+			path = GamlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43CCA0B1E69395000C21BDC /* Gamler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43CCA391E69395100C21BDC /* Build configuration list for PBXNativeTarget "Gamler" */;
+			buildPhases = (
+				F43CCA081E69395000C21BDC /* Sources */,
+				F43CCA091E69395000C21BDC /* Frameworks */,
+				F43CCA0A1E69395000C21BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gamler;
+			productName = Gamler;
+			productReference = F43CCA0C1E69395000C21BDC /* Gamler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43CCA241E69395100C21BDC /* GamlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43CCA3C1E69395100C21BDC /* Build configuration list for PBXNativeTarget "GamlerTests" */;
+			buildPhases = (
+				F43CCA211E69395100C21BDC /* Sources */,
+				F43CCA221E69395100C21BDC /* Frameworks */,
+				F43CCA231E69395100C21BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43CCA271E69395100C21BDC /* PBXTargetDependency */,
+			);
+			name = GamlerTests;
+			productName = GamlerTests;
+			productReference = F43CCA251E69395100C21BDC /* GamlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F43CCA2F1E69395100C21BDC /* GamlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43CCA3F1E69395100C21BDC /* Build configuration list for PBXNativeTarget "GamlerUITests" */;
+			buildPhases = (
+				F43CCA2C1E69395100C21BDC /* Sources */,
+				F43CCA2D1E69395100C21BDC /* Frameworks */,
+				F43CCA2E1E69395100C21BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43CCA321E69395100C21BDC /* PBXTargetDependency */,
+			);
+			name = GamlerUITests;
+			productName = GamlerUITests;
+			productReference = F43CCA301E69395100C21BDC /* GamlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43CCA041E69395000C21BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gaurav;
+				TargetAttributes = {
+					F43CCA0B1E69395000C21BDC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					F43CCA241E69395100C21BDC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F43CCA0B1E69395000C21BDC;
+					};
+					F43CCA2F1E69395100C21BDC = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F43CCA0B1E69395000C21BDC;
+					};
+				};
+			};
+			buildConfigurationList = F43CCA071E69395000C21BDC /* Build configuration list for PBXProject "Gamler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43CCA031E69395000C21BDC;
+			productRefGroup = F43CCA0D1E69395000C21BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43CCA0B1E69395000C21BDC /* Gamler */,
+				F43CCA241E69395100C21BDC /* GamlerTests */,
+				F43CCA2F1E69395100C21BDC /* GamlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43CCA0A1E69395000C21BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CCA1F1E69395000C21BDC /* LaunchScreen.storyboard in Resources */,
+				F43CCA1C1E69395000C21BDC /* Assets.xcassets in Resources */,
+				F43CCA1A1E69395000C21BDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA231E69395100C21BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA2E1E69395100C21BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43CCA081E69395000C21BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CCA171E69395000C21BDC /* ViewController.m in Sources */,
+				F43CCA141E69395000C21BDC /* AppDelegate.m in Sources */,
+				F43CCA111E69395000C21BDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA211E69395100C21BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CCA2A1E69395100C21BDC /* GamlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43CCA2C1E69395100C21BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43CCA351E69395100C21BDC /* GamlerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43CCA271E69395100C21BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43CCA0B1E69395000C21BDC /* Gamler */;
+			targetProxy = F43CCA261E69395100C21BDC /* PBXContainerItemProxy */;
+		};
+		F43CCA321E69395100C21BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43CCA0B1E69395000C21BDC /* Gamler */;
+			targetProxy = F43CCA311E69395100C21BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F43CCA181E69395000C21BDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43CCA191E69395000C21BDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F43CCA1D1E69395000C21BDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F43CCA1E1E69395000C21BDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F43CCA371E69395100C21BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F43CCA381E69395100C21BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F43CCA3A1E69395100C21BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gamler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Gamler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F43CCA3B1E69395100C21BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gamler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Gamler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F43CCA3D1E69395100C21BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GamlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.GamlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamler.app/Gamler";
+			};
+			name = Debug;
+		};
+		F43CCA3E1E69395100C21BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GamlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.GamlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gamler.app/Gamler";
+			};
+			name = Release;
+		};
+		F43CCA401E69395100C21BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GamlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.GamlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gamler;
+			};
+			name = Debug;
+		};
+		F43CCA411E69395100C21BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GamlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaurav.GamlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gamler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43CCA071E69395000C21BDC /* Build configuration list for PBXProject "Gamler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CCA371E69395100C21BDC /* Debug */,
+				F43CCA381E69395100C21BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43CCA391E69395100C21BDC /* Build configuration list for PBXNativeTarget "Gamler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CCA3A1E69395100C21BDC /* Debug */,
+				F43CCA3B1E69395100C21BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F43CCA3C1E69395100C21BDC /* Build configuration list for PBXNativeTarget "GamlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CCA3D1E69395100C21BDC /* Debug */,
+				F43CCA3E1E69395100C21BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F43CCA3F1E69395100C21BDC /* Build configuration list for PBXNativeTarget "GamlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43CCA401E69395100C21BDC /* Debug */,
+				F43CCA411E69395100C21BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43CCA041E69395000C21BDC /* Project object */;
+}
