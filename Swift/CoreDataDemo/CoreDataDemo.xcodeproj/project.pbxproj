@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A946951B6F7E5C0004BD9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A946941B6F7E5C0004BD9B /* CoreData.framework */; };
+		12A946971B6F7F900004BD9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A946961B6F7F900004BD9B /* TableViewController.swift */; };
+		12A946991B6F7F9F0004BD9B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A946981B6F7F9F0004BD9B /* TableViewCell.swift */; };
+		12A9469B1B6F7FB30004BD9B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9469A1B6F7FB30004BD9B /* AddViewController.swift */; };
+		12A9469D1B6F80EB0004BD9B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A9469C1B6F80EB0004BD9B /* Model.swift */; };
+		12FC915F1B6F7DC800C3B76F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC915E1B6F7DC800C3B76F /* AppDelegate.swift */; };
+		12FC91641B6F7DC800C3B76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FC91621B6F7DC800C3B76F /* Main.storyboard */; };
+		12FC91671B6F7DC800C3B76F /* CarSpotter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12FC91651B6F7DC800C3B76F /* CarSpotter.xcdatamodeld */; };
+		12FC91691B6F7DC800C3B76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FC91681B6F7DC800C3B76F /* Assets.xcassets */; };
+		12FC916C1B6F7DC800C3B76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FC916A1B6F7DC800C3B76F /* LaunchScreen.storyboard */; };
+		12FC91771B6F7DC800C3B76F /* CarSpotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC91761B6F7DC800C3B76F /* CarSpotterTests.swift */; };
+		12FC91821B6F7DC800C3B76F /* CarSpotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FC91811B6F7DC800C3B76F /* CarSpotterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12FC91731B6F7DC800C3B76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FC91531B6F7DC800C3B76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FC915A1B6F7DC800C3B76F;
+			remoteInfo = CarSpotter;
+		};
+		12FC917E1B6F7DC800C3B76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FC91531B6F7DC800C3B76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FC915A1B6F7DC800C3B76F;
+			remoteInfo = CarSpotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A946941B6F7E5C0004BD9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12A946961B6F7F900004BD9B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		12A946981B6F7F9F0004BD9B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		12A9469A1B6F7FB30004BD9B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		12A9469C1B6F80EB0004BD9B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		12FC915B1B6F7DC800C3B76F /* CarSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FC915E1B6F7DC800C3B76F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12FC91631B6F7DC800C3B76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12FC91661B6F7DC800C3B76F /* CarSpotter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarSpotter.xcdatamodel; sourceTree = "<group>"; };
+		12FC91681B6F7DC800C3B76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12FC916B1B6F7DC800C3B76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12FC916D1B6F7DC800C3B76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FC91721B6F7DC800C3B76F /* CarSpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FC91761B6F7DC800C3B76F /* CarSpotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpotterTests.swift; sourceTree = "<group>"; };
+		12FC91781B6F7DC800C3B76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FC917D1B6F7DC800C3B76F /* CarSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FC91811B6F7DC800C3B76F /* CarSpotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSpotterUITests.swift; sourceTree = "<group>"; };
+		12FC91831B6F7DC800C3B76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12FC91581B6F7DC800C3B76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A946951B6F7E5C0004BD9B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC916F1B6F7DC800C3B76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC917A1B6F7DC800C3B76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FC91521B6F7DC800C3B76F = {
+			isa = PBXGroup;
+			children = (
+				12A946941B6F7E5C0004BD9B /* CoreData.framework */,
+				12FC915D1B6F7DC800C3B76F /* CarSpotter */,
+				12FC91751B6F7DC800C3B76F /* CoreDataDemoTests */,
+				12FC91801B6F7DC800C3B76F /* CoreDataUITests */,
+				12FC915C1B6F7DC800C3B76F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12FC915C1B6F7DC800C3B76F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FC915B1B6F7DC800C3B76F /* CarSpotter.app */,
+				12FC91721B6F7DC800C3B76F /* CarSpotterTests.xctest */,
+				12FC917D1B6F7DC800C3B76F /* CarSpotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FC915D1B6F7DC800C3B76F /* CarSpotter */ = {
+			isa = PBXGroup;
+			children = (
+				12FC915E1B6F7DC800C3B76F /* AppDelegate.swift */,
+				12A946961B6F7F900004BD9B /* TableViewController.swift */,
+				12A946981B6F7F9F0004BD9B /* TableViewCell.swift */,
+				12A9469A1B6F7FB30004BD9B /* AddViewController.swift */,
+				12A9469C1B6F80EB0004BD9B /* Model.swift */,
+				12FC91621B6F7DC800C3B76F /* Main.storyboard */,
+				12FC91681B6F7DC800C3B76F /* Assets.xcassets */,
+				12FC916A1B6F7DC800C3B76F /* LaunchScreen.storyboard */,
+				12FC916D1B6F7DC800C3B76F /* Info.plist */,
+				12FC91651B6F7DC800C3B76F /* CarSpotter.xcdatamodeld */,
+			);
+			path = CarSpotter;
+			sourceTree = "<group>";
+		};
+		12FC91751B6F7DC800C3B76F /* CoreDataDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				12FC91761B6F7DC800C3B76F /* CarSpotterTests.swift */,
+				12FC91781B6F7DC800C3B76F /* Info.plist */,
+			);
+			name = CoreDataDemoTests;
+			path = CarSpotterTests;
+			sourceTree = "<group>";
+		};
+		12FC91801B6F7DC800C3B76F /* CoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12FC91811B6F7DC800C3B76F /* CarSpotterUITests.swift */,
+				12FC91831B6F7DC800C3B76F /* Info.plist */,
+			);
+			name = CoreDataUITests;
+			path = CarSpotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12FC915A1B6F7DC800C3B76F /* CarSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FC91861B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotter" */;
+			buildPhases = (
+				12FC91571B6F7DC800C3B76F /* Sources */,
+				12FC91581B6F7DC800C3B76F /* Frameworks */,
+				12FC91591B6F7DC800C3B76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSpotter;
+			productName = CarSpotter;
+			productReference = 12FC915B1B6F7DC800C3B76F /* CarSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12FC91711B6F7DC800C3B76F /* CarSpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FC91891B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotterTests" */;
+			buildPhases = (
+				12FC916E1B6F7DC800C3B76F /* Sources */,
+				12FC916F1B6F7DC800C3B76F /* Frameworks */,
+				12FC91701B6F7DC800C3B76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FC91741B6F7DC800C3B76F /* PBXTargetDependency */,
+			);
+			name = CarSpotterTests;
+			productName = CarSpotterTests;
+			productReference = 12FC91721B6F7DC800C3B76F /* CarSpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12FC917C1B6F7DC800C3B76F /* CarSpotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FC918C1B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotterUITests" */;
+			buildPhases = (
+				12FC91791B6F7DC800C3B76F /* Sources */,
+				12FC917A1B6F7DC800C3B76F /* Frameworks */,
+				12FC917B1B6F7DC800C3B76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FC917F1B6F7DC800C3B76F /* PBXTargetDependency */,
+			);
+			name = CarSpotterUITests;
+			productName = CarSpotterUITests;
+			productReference = 12FC917D1B6F7DC800C3B76F /* CarSpotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12FC91531B6F7DC800C3B76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					12FC915A1B6F7DC800C3B76F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					12FC91711B6F7DC800C3B76F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 12FC915A1B6F7DC800C3B76F;
+					};
+					12FC917C1B6F7DC800C3B76F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 12FC915A1B6F7DC800C3B76F;
+					};
+				};
+			};
+			buildConfigurationList = 12FC91561B6F7DC800C3B76F /* Build configuration list for PBXProject "CoreDataDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12FC91521B6F7DC800C3B76F;
+			productRefGroup = 12FC915C1B6F7DC800C3B76F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12FC915A1B6F7DC800C3B76F /* CarSpotter */,
+				12FC91711B6F7DC800C3B76F /* CarSpotterTests */,
+				12FC917C1B6F7DC800C3B76F /* CarSpotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12FC91591B6F7DC800C3B76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FC916C1B6F7DC800C3B76F /* LaunchScreen.storyboard in Resources */,
+				12FC91691B6F7DC800C3B76F /* Assets.xcassets in Resources */,
+				12FC91641B6F7DC800C3B76F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC91701B6F7DC800C3B76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC917B1B6F7DC800C3B76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FC91571B6F7DC800C3B76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9469B1B6F7FB30004BD9B /* AddViewController.swift in Sources */,
+				12FC91671B6F7DC800C3B76F /* CarSpotter.xcdatamodeld in Sources */,
+				12A946991B6F7F9F0004BD9B /* TableViewCell.swift in Sources */,
+				12A9469D1B6F80EB0004BD9B /* Model.swift in Sources */,
+				12A946971B6F7F900004BD9B /* TableViewController.swift in Sources */,
+				12FC915F1B6F7DC800C3B76F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC916E1B6F7DC800C3B76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FC91771B6F7DC800C3B76F /* CarSpotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FC91791B6F7DC800C3B76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FC91821B6F7DC800C3B76F /* CarSpotterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12FC91741B6F7DC800C3B76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FC915A1B6F7DC800C3B76F /* CarSpotter */;
+			targetProxy = 12FC91731B6F7DC800C3B76F /* PBXContainerItemProxy */;
+		};
+		12FC917F1B6F7DC800C3B76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FC915A1B6F7DC800C3B76F /* CarSpotter */;
+			targetProxy = 12FC917E1B6F7DC800C3B76F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12FC91621B6F7DC800C3B76F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FC91631B6F7DC800C3B76F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12FC916A1B6F7DC800C3B76F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FC916B1B6F7DC800C3B76F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12FC91841B6F7DC800C3B76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12FC91851B6F7DC800C3B76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FC91871B6F7DC800C3B76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12FC91881B6F7DC800C3B76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarSpotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12FC918A1B6F7DC800C3B76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSpotter.app/CarSpotter";
+			};
+			name = Debug;
+		};
+		12FC918B1B6F7DC800C3B76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarSpotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSpotter.app/CarSpotter";
+			};
+			name = Release;
+		};
+		12FC918D1B6F7DC800C3B76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12FC918E1B6F7DC800C3B76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarSpotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemon.CarSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSpotter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FC91561B6F7DC800C3B76F /* Build configuration list for PBXProject "CoreDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FC91841B6F7DC800C3B76F /* Debug */,
+				12FC91851B6F7DC800C3B76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FC91861B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FC91871B6F7DC800C3B76F /* Debug */,
+				12FC91881B6F7DC800C3B76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FC91891B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FC918A1B6F7DC800C3B76F /* Debug */,
+				12FC918B1B6F7DC800C3B76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FC918C1B6F7DC800C3B76F /* Build configuration list for PBXNativeTarget "CarSpotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FC918D1B6F7DC800C3B76F /* Debug */,
+				12FC918E1B6F7DC800C3B76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12FC91651B6F7DC800C3B76F /* CarSpotter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12FC91661B6F7DC800C3B76F /* CarSpotter.xcdatamodel */,
+			);
+			currentVersion = 12FC91661B6F7DC800C3B76F /* CarSpotter.xcdatamodel */;
+			path = CarSpotter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12FC91531B6F7DC800C3B76F /* Project object */;
+}
